@@ -1,0 +1,38 @@
+{
+    "name": "José Lucas (Eu mesmo)",
+    "job": "Desenvolvedor Front-end",
+    "github": "lLucasBezerra",
+    "playlists": {
+        "games": [
+            {
+                "title": "mk: o armageddon das reviews",
+                "url": "https://www.youtube.com/watch?v=j88QgLenaZw&t=2057s",
+                "thumb": "https://i.ytimg.com/vi/j88QgLenaZw/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBXTM2vPqT7nmEGHD-vW4FkyURBMw"
+            },
+            {
+                "title": "alanzoka jogando God of War no PC - Parte #15 / FINAL",
+                "url": "https://www.youtube.com/watch?v=2p-td_QaYrs",
+                "thumb": "https://i.ytimg.com/vi/2p-td_QaYrs/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA-yRohs7WxrNVlhFWjQcYTW0yRfg"
+            }
+        ],
+        "front-end": [
+            {
+                "title": "Seu primeiro código HTML - @Curso em Vídeo HTML5 e CSS3",
+                "url": "https://www.youtube.com/watch?v=E6CdIawPTh0&t=19s",
+                "thumb": "https://i.ytimg.com/vi/UForX7ehChM/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAuHky6QWjTsDBoLFw3Vqi5DLBNCQ"
+            }
+        ],
+        "RPG": [
+            {
+                "title": "'Alheios' - Episódio 1 - SINAIS DO OUTRO LADO RPG",
+                "url": "https://www.youtube.com/watch?v=k5y48mQTdpE&t=3632s",
+                "thumb": "https://i.ytimg.com/vi/k5y48mQTdpE/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDXeajCIWwBtBRvxgTmF4SsFDRkVA"
+            },
+            {
+                "title": "#Espiral Ep.0 - das Hamletmachine | Uma série de Ordem Paranormal RPG",
+                "url": "https://www.youtube.com/watch?v=LarOdbCDC1s&t=9373s",
+                "thumb": "https://i.ytimg.com/vi/LarOdbCDC1s/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDYLz-iotBkyzHRzvSb4Wf622zvzQ"
+            }
+        ]
+    } 
+}
