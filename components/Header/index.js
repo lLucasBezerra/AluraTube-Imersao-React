@@ -16,12 +16,17 @@ const StyledHeader = styled.div`
         gap: 16px;
     }
 `;
+const StyledBanner = styled.div`
+    background-color: black;
+    background-image: url(${({ bg }) => bg});
+    height: 230px;
+`;
 
 
 export function Header(){
     return(
         <StyledHeader>
-            <img src="banner" />
+            <StyledBanner bg ={config.bg} />
             <section className="user-info">
                 <img src={`https://github.com/${config.github}.png`} />
                 <div>

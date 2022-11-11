@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Search from "./Search"
 
 const StyledHeader = styled.header`
     display: flex;
@@ -25,12 +26,13 @@ const StyledHeader = styled.header`
     }
 `;
 
-export function Menu(){
+export function Menu({ valorDoFiltro, setValorDoFiltro }){
     return(
         <StyledHeader>
             <div>
-            <Logo />
+            <Logo />a
             </div>
+            <Search valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
             
         </StyledHeader>
     )

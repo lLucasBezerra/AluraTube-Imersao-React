@@ -32,6 +32,7 @@ export const StyledTimeline = styled.div`
       grid-auto-flow: column;
       grid-auto-columns: minmax(200px,1fr);
       overflow-x: scroll;
+      /* estudar sobre scrollsnap */
       scroll-snap-type: x mandatory;
       a {
         scroll-snap-align: start;
@@ -55,19 +56,26 @@ export function Timeline(props){
         <StyledTimeline>
             {playlistNames.map((playlistName)=>{
                 const videos = props.playlist[playlistName]
-                console.log(videos)
+                //console.log(videos)
                 return (
-                    <section>
+                    <section key={playlistName}>
                         <h2>{playlistName}</h2>
                         <div>
-                            {videos.map((video) => {
+                            {videos
+                              .filter((video) =>{
+                                // para previnir erros de buscas
+                                const titleNormalized = video.title.toLowerCase();
+                                const searchValueNormalized = props.searchValue.toLowerCase();
+                                return titleNormalized.includes(searchValueNormalized);
+                            })
+                              .map((video) => {
                                 return(
-                                    <a href={video.url}>
+                                    <a href={video.url} key={video.url}>
                                         <img src={video.thumb}/>
                                         <span> {video.title} </span>
                                     </a>
                                 )
-                            })}
+                              })}
                         </div>
                     </section>
                 )

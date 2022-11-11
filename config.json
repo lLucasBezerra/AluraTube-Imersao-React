@@ -1,6 +1,7 @@
 {
     "name": "José Lucas (Eu mesmo)",
     "job": "Desenvolvedor Front-end",
+    "bg": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "github": "lLucasBezerra",
     "playlists": {
         "games": [
@@ -20,6 +21,11 @@
                 "title": "Seu primeiro código HTML - @Curso em Vídeo HTML5 e CSS3",
                 "url": "https://www.youtube.com/watch?v=E6CdIawPTh0&t=19s",
                 "thumb": "https://i.ytimg.com/vi/UForX7ehChM/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAuHky6QWjTsDBoLFw3Vqi5DLBNCQ"
+            },
+            {
+                "title": "ASP.NET Core Web API .NET 6 2022 - 1. Create Project & Quick Tips",
+                "url": "https://www.youtube.com/watch?v=_8nLSsK5NDo&list=PL82C6-O4XrHdiS10BLh23x71ve9mQCln0&index=1",
+                "thumb": "https://i.ytimg.com/vi/_8nLSsK5NDo/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAgbYlLRRpvDgj26frvwqlgmwUPGw"
             }
         ],
         "RPG": [
@@ -29,10 +35,28 @@
                 "thumb": "https://i.ytimg.com/vi/k5y48mQTdpE/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDXeajCIWwBtBRvxgTmF4SsFDRkVA"
             },
             {
+                "title": "'Parasita' - Episódio 2 - SINAIS DO OUTRO LADO RPG",
+                "url": "https://www.youtube.com/watch?v=ouAWcImB1WY",
+                "thumb": "https://i.ytimg.com/vi/ouAWcImB1WY/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBqVVAYvsAoeYYgcSR6haz41P1JAw"
+            },
+            {
                 "title": "#Espiral Ep.0 - das Hamletmachine | Uma série de Ordem Paranormal RPG",
                 "url": "https://www.youtube.com/watch?v=LarOdbCDC1s&t=9373s",
                 "thumb": "https://i.ytimg.com/vi/LarOdbCDC1s/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDYLz-iotBkyzHRzvSb4Wf622zvzQ"
             }
+        ],
+        "Lo-fi":[
+            {
+                "title": "겨울에 공부할 때 집중하기 좋은 음악 | 3 hour lofi study in winter / beats to relax",
+                "url": "https://www.youtube.com/watch?v=r0z8pE9Ix9M",
+                "thumb": "https://i.ytimg.com/vi/r0z8pE9Ix9M/hq720.jpg?sqp=-oaymwE9COgCEMoBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4AdQGgALgA4oCDAgAEAEYciBVKDYwDw==&rs=AOn4CLDlsLWpk0P403UzIdAi4dO-EGzdUw"
+            },
+            {
+                "title": "Zelda | Rainy Hateno Night | Ambience [10 Hours]",
+                "url": "https://www.youtube.com/watch?v=IysQe9xU2XM",
+                "thumb": "https://i.ytimg.com/vi/IysQe9xU2XM/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAgMq1aEU9igxjesxjvtF-yey4lrQ"
+            }
         ]
+
     } 
 }
