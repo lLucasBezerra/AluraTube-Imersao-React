@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Search from "./Search"
+import DarkModeSwitch from "./DarkModeSwitch"
 
 const StyledHeader = styled.header`
     display: flex;
@@ -30,9 +31,10 @@ export function Menu({ valorDoFiltro, setValorDoFiltro }){
     return(
         <StyledHeader>
             <div>
-            <Logo />a
+            <Logo />
             </div>
             <Search valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
+            <DarkModeSwitch />
             
         </StyledHeader>
     )
