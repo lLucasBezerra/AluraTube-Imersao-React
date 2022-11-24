@@ -3,6 +3,7 @@ import { ThemeProvider } from "styled-components";
 import { CSSReset } from "../assets/CSSReset_index.js";
 import ColorModeProvider from "../components/Menu/ColorMode"
 import { ColorModeContext } from "../components/Menu/ColorMode";
+import RegisterVideo from '../components/RegisterVideo/index.js';
 
 
 const theme = {
@@ -40,6 +41,7 @@ function MyApp({ Component, pageProps }) {
     <CSSReset />
     
     <Component {...pageProps} />
+    <RegisterVideo />
     </ThemeProvider>
     )
   }
