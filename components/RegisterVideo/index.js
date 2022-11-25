@@ -1,5 +1,15 @@
+import { createClient } from '@supabase/supabase-js';
 import React from 'react'
 import { StyledRegisterVideo } from "./style";
+
+function getThumb(url) {
+    return `https://img.youtube.com/vi/${url.split("v=")[1]}/hqdefault.jpg`
+}
+
+//utilizaando supabase service
+const PROJECT_URL = "https://rwwmbrpffqnkmofwaoio.supabase.co";
+const PUBLIC_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ3d21icnBmZnFua21vZndhb2lvIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjkzODE1MDQsImV4cCI6MTk4NDk1NzUwNH0._MHzadHBgqVaHHkfwYLdVbD0TYzCjbiHwzpkt1SU4zg"
+const supabase = createClient(PROJECT_URL, PUBLIC_KEY)
 
 export default function RegisterVideo() {
     const [formVisivel, setFormVisivel] = React.useState(false);
@@ -15,6 +25,7 @@ export default function RegisterVideo() {
     function pegarValores(e){
         setCadastroValue({...cadastroValue, [e.target.name]: e.target.value})
     }
+
   return (
     <StyledRegisterVideo>
         <button type="button" className="add-video" onClick={mostrarModal}>
@@ -27,6 +38,18 @@ export default function RegisterVideo() {
                     e.preventDefault();
                     setFormVisivel(false);
                     setCadastroValue({})
+                    
+                    supabase.from("video").insert({
+                        title: titulo,
+                        url: url,
+                        thumb: getThumb(url),
+                        playlist: "Lo-fi",
+                    }).then((oqveio)=>{
+                        console.log(oqveio);
+                    }).catch((err)=>{
+                        console.log(err);
+                    })
+                    
                 }}>
             <div>
                 <button type="button" className="close-modal" onClick={mostrarModal}>
