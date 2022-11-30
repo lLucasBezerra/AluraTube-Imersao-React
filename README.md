@@ -9,9 +9,15 @@ O objetivo era fazer uma versão simples do youtube, para entender um pouco como
 
 
 ## 💡 O que aprendi
- * tive minha primeira experiência com o framework **Next.js**, a biblioteca **Styled-components**, e descobri a função de um **Firebase**;
+ * Tive minha primeira experiência com o framework **Next.js**, a biblioteca **Styled-components**, e descobri a função de um **Firebase**;
  
  * Além disso, aprendi mais sobre os Hooks do React, e até uma noção de como criar um, também entendi a funcionalidade do "Prop Drilling" no react;
+ 
+ * Utilizei Provider Patterns que por enquanto ainda preciso estuda-lo mais para entender melhor;
+ 
+ *Como funciona a alteração de tema claro e escuro para todo o site;
+ 
+ *Aprimorei meus conhecimentos com CSS;
  
  * Entendi como me organizar melhor com os components;
  
