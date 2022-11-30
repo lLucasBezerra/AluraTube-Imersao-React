@@ -9,7 +9,7 @@ O objetivo era fazer uma versão simples do youtube, para entender um pouco como
 
 
 ## 💡 O que aprendi
- * tive minha primeira experiência com o framework **Next.js**, a biblioteca Styled-components, e descobri a função de um Firebase;
+ * tive minha primeira experiência com o framework **Next.js**, a biblioteca **Styled-components**, e descobri a função de um **Firebase**;
  
  * Além disso, aprendi mais sobre os Hooks do React, e até uma noção de como criar um, também entendi a funcionalidade do "Prop Drilling" no react;
  
